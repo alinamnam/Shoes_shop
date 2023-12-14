@@ -1,0 +1,38 @@
+.brands {
+    background-color: #0c2431;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.brands h2 {
+    text-align: center;
+    color: #a24f5e;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.brands p {text-align: center;
+    color: #e44d26;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.brand-logos {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+}
+
+.brand-logos img {
+    background-color: #d8a28c;
+    width: 50%; /* Adjust the size as needed */
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.brand-logos img:hover {
+    color: #e44d26;
+    transform: scale(1.1);
+}
