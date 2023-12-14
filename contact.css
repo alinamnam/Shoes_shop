@@ -1,0 +1,59 @@
+.contact {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #a24f5e;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    color: #e44d26;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    color: #e44d26;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ff0303;
+    font-size: 1.1em;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #e44d26; /* Button color */
+    color: #fce1e1;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #333; /* Hover color */
+}

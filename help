@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Store</title>
+    <link rel="stylesheet" href="style.css">
+
+        
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="Shoes Store Logo">
+        </header>
+        <nav>
+            <a href="home">Home</a>
+            <a href="men">Men's Shoes</a>
+            <a href="women">Women's Shoes</a>
+            <a href="kids">Kids' Shoes</a>
+            <a href="brands">Brands</a>
+            <a href="sale">Sale</a>
+            <a href="contact">Contact</a>
+            <a href="about us">About Us</a>
+            <a href="help">Help</a>
+            <a href="cart">Cart</a>
+        </nav>
+        <main>
+
+            <section class="help">
+                <h2>Need Help?</h2>
+            
+                <p>Our customer support team is here to assist you. Whether you have questions about our products, <br> 
+                need help with your order, or want assistance with any other inquiries, we're just a message away.</p>
+            
+                <h3>Contact Customer Support</h3>
+                <p>If you need immediate assistance, feel free to reach out to our customer support team:</p>
+                
+                <ul>
+                    <li><strong>Email:</strong> jonnamae.adame@zdspgc.edu.ph</li>
+                    <li><strong>Phone:</strong> 09054108499</li>
+                </ul>
+            
+                <h3>Frequently Asked Questions (FAQs)</h3>
+                <p>Check out our FAQs for quick answers to common questions:</p>
+            
+                <ul class="faqs">
+                    <li>
+                        <strong>Q: How can I track my order?</strong><br>
+                        A: You can track your order by logging into your account and checking the order status.
+                    </li>
+                    <li>
+                        <strong>Q: What is your return policy?</strong><br>
+                        A: Our return policy allows returns within 30 days of purchase. Please visit our Returns page for more details.
+                    </li>
+
+                </ul>
+            
+                <h3>Get in Touch</h3>
+                <p>Have a general inquiry or feedback? Use the form below to get in touch with us:</p>
+            
+                <form action="submit_help_form.php" method="post">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+            
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+            
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+            
+            
+        </main>
+    </div>
+</body>
+</html>

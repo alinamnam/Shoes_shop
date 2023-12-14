@@ -1,0 +1,72 @@
+.help {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.help h2 {
+    color: #a24f5e;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.help p {
+    color: #e44d26;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.help h3 {
+    color: #e44d26;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.help ul {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+.help li {
+    color: #e44d26;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.help .faqs li {
+    margin-bottom: 15px;
+}
+
+.help form {
+    margin-top: 20px;
+}
+
+.help form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f70808;
+    font-size: 1.1em;
+}
+
+.help form input,
+.help form textarea {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.help form button {
+    background-color: #e44d26; /* Button color */
+    color: #fce1e1;
+    padding: 10px 5px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.help form button:hover {
+    background-color: #ff0808; /* Hover color */
+}
