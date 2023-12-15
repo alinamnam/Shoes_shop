@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Store</title>
+    <link rel="stylesheet" href="style.css">
+
+        
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="Shoes Store Logo">
+        </header>
+        <nav>
+            <a href="home">Home</a>
+            <a href="men">Men's Shoes</a>
+            <a href="women">Women's Shoes</a>
+            <a href="kids">Kids' Shoes</a>
+            <a href="brands">Brands</a>
+            <a href="sale">Sale</a>
+            <a href="contact">Contact</a>
+            <a href="about us">About Us</a>
+            <a href="help">Help</a>
+            <a href="cart">Cart</a>
+        </nav>
+        <main>
+
+            <section class="sales">
+                <h2>Don't Miss Out on Our Sale!</h2>
+            
+                <p>Enjoy great savings on stylish and comfortable shoes. <br>
+                     Shop our sale collection and find fantastic deals on a variety of footwear. <br>
+                     Hurry, these offers won't last forever!</p>
+            
+                <div class="sale-items">
+                    <div class="shoe">
+                        <img src="images/sale-shoe1.png" alt="Discounted Sneaker">
+                        <h3>Sale Sneaker</h3>
+                        <p class="original-price">₱89.99</p>
+                        <p class="discounted-price">₱49.99</p>
+                    </div>
+            
+                    <div class="shoe">
+                        <img src="images/sale-shoe2.png" alt="Clearance Boots">
+                        <h3>Clearance Boots</h3>
+                        <p class="original-price">₱129.99</p>
+                        <p class="discounted-price">₱79.99</p>
+                    </div>
+            
+                    <div class="shoe">
+                        <img src="images/sale-shoe3.png" alt="Discounted Sandals">
+                        <h3>Summer Sandals</h3>
+                        <p class="original-price">₱59.99</p>
+                        <p class="discounted-price">₱39.99</p>
+                    </div>
+                </div>
+            </section>
+            
+            
+        </main>
+    </div>
+</body>
+</html>

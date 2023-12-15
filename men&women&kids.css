@@ -1,0 +1,49 @@
+/* Add styles for the featured products section */
+.featured {
+    margin-top: 30px;
+}
+
+.featured h2 {
+    text-align: center;
+    color: #a24f5e;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.featured p {
+    text-align: center;
+    color: #e44d26;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.featured-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.featured-items .shoe {
+    background-color: #fce1e1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+    padding: 10px;
+    max-width: 200px;
+}
+
+.featured-items .shoe:hover {
+    transform: translateY(-5px);
+}
+
+.featured-items .shoe img {
+    width: 70%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.featured-items .shoe h3 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,61 @@
+.sales {
+    margin-top: 30px;
+}
+
+.sales h2 {
+    text-align: center;
+    color: #a24f5e;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.sales p {
+    text-align: center;
+    color: #e44d26;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.sale-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.sale-items .shoe {
+    background-color: #fce1e1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+    padding: 10px;
+    max-width: 200px;
+}
+
+.sale-items .shoe:hover {
+    transform: translateY(-5px);
+}
+
+.sale-items .shoe img {
+    width: 70%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.sale-items .shoe h3 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.sale-items .shoe .original-price {
+    color: #999;
+    text-decoration: line-through;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.sale-items .shoe .discounted-price {
+    color: #e44d26; /* A common color for discounts */
+    font-size: 1.1em;
+    font-weight: bold;
+}
